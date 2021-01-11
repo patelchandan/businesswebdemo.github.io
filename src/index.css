@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+.navbar-brand {
+  color: dodgerblue !important;
+}
+
+.navbar a:hover {
+  color: brown !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: gray;
+  font-size: 24px;
+}
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 11px;
+  border: 1px solid skyblue;
+  padding: 4px 10px;
+  border-radius: 11px;
+  border-bottom: none;
+}
+
+#header .btn-get-started:hover {
+  background-color: rgb(38, 189, 248);
+}
+.container-fluid nav_b {
+  display: flex;
+  flex-direction: row;
+}
+.img-fluid {
+  margin-left: 600px;
+  margin-bottom: 500px;
+}
+. {
+  height: -0vh;
+}
